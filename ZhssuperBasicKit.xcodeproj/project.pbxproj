@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB331F872147DA0100E193E5 /* TestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DB331F862147DA0100E193E5 /* TestKit.m */; };
 		DB57768921479C18002D0CB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB57768821479C18002D0CB2 /* AppDelegate.m */; };
 		DB57768C21479C18002D0CB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB57768B21479C18002D0CB2 /* ViewController.m */; };
 		DB57768F21479C18002D0CB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB57768D21479C18002D0CB2 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB331F852147DA0100E193E5 /* TestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestKit.h; sourceTree = "<group>"; };
+		DB331F862147DA0100E193E5 /* TestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestKit.m; sourceTree = "<group>"; };
 		DB57768421479C18002D0CB2 /* ZhssuperBasicKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhssuperBasicKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB57768721479C18002D0CB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB57768821479C18002D0CB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,9 +42,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB331F842147DA0100E193E5 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				DB331F852147DA0100E193E5 /* TestKit.h */,
+				DB331F862147DA0100E193E5 /* TestKit.m */,
+			);
+			name = Kit;
+			path = ZhssuperBasicKit/Kit;
+			sourceTree = "<group>";
+		};
 		DB57767B21479C18002D0CB2 = {
 			isa = PBXGroup;
 			children = (
+				DB331F842147DA0100E193E5 /* Kit */,
 				DB57768621479C18002D0CB2 /* ZhssuperBasicKit */,
 				DB57768521479C18002D0CB2 /* Products */,
 			);
@@ -141,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB331F872147DA0100E193E5 /* TestKit.m in Sources */,
 				DB57768C21479C18002D0CB2 /* ViewController.m in Sources */,
 				DB57769721479C19002D0CB2 /* main.m in Sources */,
 				DB57768921479C18002D0CB2 /* AppDelegate.m in Sources */,
