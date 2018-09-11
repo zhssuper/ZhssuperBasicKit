@@ -11,7 +11,7 @@
 @implementation TestKit
 
 - (void)test {
-    NSLog(@"this is v1.0.1.");
+    NSLog(@"this is v1.0.2.");
 }
 
 @end
